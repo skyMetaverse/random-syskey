@@ -31,12 +31,12 @@ randomUserAgent(browserIdentifier)
 
 Using npm:
 ```shell
-npm i randomAny
+npm i random-syskey
 ```
 
 In Node.JS:
 ```js
-const ra = require('randomAny');
+const rs = require('random-syskey');
 ```
 
 # Usage
@@ -44,27 +44,27 @@ const ra = require('randomAny');
 #### Generate a Random Number
 ```js
 // Generate a random number with 5 digits
-console.log(random.randomNumber(5));
+console.log(rs.randomNumber(5));
 
 // Generate a random integer between 10 and 20
-console.log(random.randomNumber(10, 20));
+console.log(rs.randomNumber(10, 20));
 
 // Generate a random number between 1 and 10 with 2 decimal places
-console.log(random.randomNumber(1, 10, 2));
+console.log(rs.randomNumber(1, 10, 2));
 ```
 #### Generate a Random String
 ```js
 // Generate a 10-character long random string
-console.log(random.randomString(10, false));
+console.log(rs.randomString(10, false));
 
 // Generate a 15-character long random string that includes numbers
-console.log(random.randomString(15, true));
+console.log(rs.randomString(15, true));
 ```
 #### Generate a Random User-Agent String
 ```js
 // Generate a random user-agent string of any supported browser
-console.log(random.randomUserAgent());
+console.log(rs.randomUserAgent());
 
 // Generate a random user-agent string for Firefox
-console.log(random.randomUserAgent('Chrome'));
+console.log(rs.randomUserAgent('Chrome'));
 ```
