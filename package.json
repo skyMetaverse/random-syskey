@@ -1,5 +1,5 @@
 {
-  "name": "randomany",
+  "name": "random-syskey",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyMetaverse/randomAny"
+    "url": "git+https://github.com/skyMetaverse/random-syskey"
   },
   "keywords": [],
   "author": "syskey",
