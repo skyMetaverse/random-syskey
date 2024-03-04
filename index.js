@@ -1,3 +1,5 @@
+const readLines = require('readFile-syskey');
+
 /**
  * Generates a random number based on provided arguments.
  * 

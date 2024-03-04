@@ -1,6 +1,6 @@
 {
   "name": "random-syskey",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -8,9 +8,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/skyMetaverse/random-syskey"
+    "url": "https://github.com/skyMetaverse/random-syskey.git"
   },
-  "keywords": [],
+  "keywords": [
+    "random",
+    "anything"
+  ],
   "author": "syskey",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "readfile-syskey": "^1.0.2"
+  }
 }
